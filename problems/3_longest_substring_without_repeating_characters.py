@@ -11,6 +11,24 @@ Explanation: The answer is "abc", with the length of 3.
 
 """
 
+"""
+Thoughts
+
+It looks like a classic Dynamic Programming problem. So why not try to find a tranformation equation?
+
+Let dp[i] repensent the length of substring that ends at i and has no repeating characters. 
+If s[i] == s[i - 1], it is intuitive that dp[i] equals to 1.
+Otherwise, the value of dp[i] depends on whether s[i] has appeared.
+If it does not, there's nothing like s[i] before. So dp[i] = dp[i - 1] + 1
+Otherwise, dp[i] can be 1 + dp[i - 1] or the length of substring that starts from the next position of the 
+previous s[i] (i - mp[s[i]]). In order to guarantee that no other s[i] is in the substring, 
+dp[i] should be less than or equal to i - mp[s[i]]. 
+Therefore, in this scenario, dp[i] = min(1 + dp[i - 1], i - mp[s[i]]).
+
+Obviously, the time complexity here is O(n * log n))
+
+"""
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         l = len(s)
