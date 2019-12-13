@@ -72,7 +72,7 @@ Note: You may not slant the container and n is at least 2.
 
 ## Thoughts
 
-If we set the left side of the container to be the shorter side of the bucket, then the maximun volume of the container is decided, from the current to the most right that is greater. It is the same situation for the right side to be set as the shorter side.
+If we set the left side of the container to be the shorter side of the bucket, then the maximun volume of the container is decided, from the current to the most right that is greater. So the first element we meet from end to left that is greater than the current guarantees that their distance is maximum. It is the same situation for the right side to be set as the shorter side.
 
 Since the maximum volume of the container on the condition that the current side is the shorter side has been definite, we need to move accordingly if we want a potentially greater volume.
 
