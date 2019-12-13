@@ -10,7 +10,7 @@ Find all unique triplets in the array which gives sum of zero.
 ## Thoughts
 
 This is like problem 11, Container With Most Water, in which you need to find 2 elements 
-in a given list *a* to maxmize $min(a[i], a[j]) * |j - i|$.
+in a given list *a* to maxmize min(a[i], a[j]) * |j - i|.
 
 In this problem, we need to find 3 elements that add up to *0*, which means they must contain both 
 negative and positive elements or they are all zeros. Just sort the list first. Therefore, it is sort of like
