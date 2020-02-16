@@ -10,6 +10,7 @@ Output: 3
 Explanation:  The answer is "abc", with the length of 3.
 
 **Thoughts**
+
 It looks like a classic *Dynamic Programmin*g problem. So it's better to try to find a tranformation equation.
 
 Let `dp[i]` repensent the length of substring that ends at *i* and has no repeating characters. 
@@ -24,7 +25,7 @@ Otherwise, `dp[i]` can be `1 + dp[i - 1]` or the length of substring that starts
 
 Therefore, in this scenario, `dp[i] = min(1 + dp[i - 1], i - mp[s[i]])`.
 
-Obviously, the time complexity here is $O(n * log n)$
+Obviously, the time complexity here is O(n * log n)
 
 
 
