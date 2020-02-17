@@ -15,3 +15,5 @@
 [22. Generate parentheses](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/22_Generate_parentheses.md)
 
 [23. Merge K sorted linked lists](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/23_Merge_k_sorted_linked_lists.md)
+
+[31. Next permutation](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/31_Next_permutation.md)
