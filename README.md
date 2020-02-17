@@ -14,4 +14,4 @@
 
 [22. Generate parentheses](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/22_Generate_parentheses.md)
 
-[23. Merge K sorted linked lists](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/23_Merge_K_sorted_linked_lists.md)
+[23. Merge K sorted linked lists](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/23_Merge_k_sorted_linked_lists.md)
