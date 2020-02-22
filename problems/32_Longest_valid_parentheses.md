@@ -6,7 +6,7 @@
 
 令 `dp[i]`表示以 `s[i]` 结尾且是有效的最长子串的长度，显然有
 
-![https://github.com/qtNiu7/leetcode-problems/blob/master/appendix/32_dp.png]
+![](https://github.com/qtNiu7/leetcode-problems/blob/master/appendix/32_dp.png)
 
 $$
 dp[i] = \left\{
