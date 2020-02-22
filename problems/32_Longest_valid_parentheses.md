@@ -2,7 +2,7 @@
 
 
 
-动态规划：
+### 动态规划：
 
 令 `dp[i]`表示以 `s[i]` 结尾且是有效的最长子串的长度，显然有
 
@@ -37,6 +37,32 @@ class Solution:
 ```
 
 
+### 用栈来匹配并记录长度
 
+
+```python
+
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+
+        l = len(s)
+        stack = []
+        m = 0
+        stack.append(-1)
+
+        for i in range(l):
+            if s[i] == '(':
+                stack.append(i)
+            else:
+                stack.pop()
+                if len(stack) == 0:
+                    stack.append(i)
+                else:
+                    a = len(stack)
+                    m = max(m, i - stack[a - 1])
+                    
+        return m 
+
+```
 
 
