@@ -19,3 +19,5 @@
 [31. Next permutation](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/31_Next_permutation.md)
 
 [32. Longest valid parentheses](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/32_Longest_valid_parentheses.md)
+
+[33. Search in rotated sorted array](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/33_Search_in_rotated_sorted_array.md)
