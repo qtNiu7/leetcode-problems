@@ -21,3 +21,5 @@
 [32. Longest valid parentheses](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/32_Longest_valid_parentheses.md)
 
 [33. Search in rotated sorted array](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/33_Search_in_rotated_sorted_array.md)
+
+[34. Search first and last position of element in a sorted array](https://github.com/qtNiu7/leetcode-problems/blob/master/problems/34_FirstAndLastPositionOfElementInSortedArray.md)
